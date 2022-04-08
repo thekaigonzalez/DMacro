@@ -57,7 +57,7 @@ string[][string] parseDM(string s) {
         } else if (sw == '"' && state == 999) state = 1;
         else if (sw == '#' && state == 0) {
             state = 9993;
-        } else if (sw == '\n' && state == 9993) state = 0;
+        } else if (sw == '\n' && state == 9993)  { state = 0; buffer = ""; }
         else {
             buffer ~= sw;
         }
