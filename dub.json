@@ -1,0 +1,13 @@
+{
+	"authors": [
+		"Kai D. Gonzalez"
+	],
+	"copyright": "Copyright © 2022, Kai D. Gonzalez",
+	"dependencies": {
+		"applogger": "*"
+	},
+	"description": "A Programming language written for simplistic project design.",
+	"license": "MIT",
+	"name": "dmacro",
+	"targetType": "library"
+}

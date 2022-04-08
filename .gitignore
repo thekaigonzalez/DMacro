@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/dmacro
+dmacro.so
+dmacro.dylib
+dmacro.dll
+dmacro.a
+dmacro.lib
+dmacro-test-*
+*.exe
+*.o
+*.obj
+*.lst
+
+*.pdb
